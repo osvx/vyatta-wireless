@@ -1,3 +1,14 @@
+vyatta-wireless (0.3.41+osvx1+projectx1) unstable; urgency=medium
+
+  [ Alex Harpin ]
+  * wireless-hostapd: ensure the cipher value given is used by hostapd
+  * wireless-hostapd: set the default cipers to CCMP TKIP
+
+  [ Valentin Yakovenkov ]
+  * Switch to OS/VX
+
+ -- Valentin Yakovenkov <yakovenkov@gmail.com>  Mon, 02 Jun 2014 12:48:53 +0400
+
 vyatta-wireless (0.3.41+vyos1+helium1) unstable; urgency=low
 
   * New branch
